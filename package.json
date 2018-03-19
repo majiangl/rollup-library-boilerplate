@@ -1,0 +1,31 @@
+{
+  "name": "rollup-library-boilerplate",
+  "version": "1.0.0",
+  "description": "Using rollup to package library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://majiangl@github.com/majiangl/rollup-library-boilerplate.git"
+  },
+  "keywords": [
+    "rollup",
+    "library",
+    "boilerplate"
+  ],
+  "author": "rjgcmjl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majiangl/rollup-library-boilerplate/issues"
+  },
+  "homepage": "https://github.com/majiangl/rollup-library-boilerplate#readme",
+  "devDependencies": {
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
